@@ -74,10 +74,10 @@ server.html
     </style>
 </head>
 <body>
+    <h1>Harikrishna(25013589)</h1>
     <center>
         <div class="hari">
                 <h1>BMI CALCULATER</h1>
-                <h1>Harikrishna(25013589)</h1>
                 <h1>Calculate_BMI</h1> 
 <form method="POST">
 {%csrf_token %}
