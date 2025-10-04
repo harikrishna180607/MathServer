@@ -1,0 +1,66 @@
+
+<html>
+    <head>
+        <title>CALCULATE BMI </title>
+    <style>
+        body{
+            gap:40px;
+            position: absolute;
+            top:22%;
+            right: 35%;
+            border: dashed   4px rgb(160, 35, 119);
+            border-radius: 5%;
+            background: rgba(4, 224, 240, 1);
+        }
+        .hari{
+            background: rgba(4, 224, 240, 1);
+
+        }
+         body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: rgba(6, 251, 18, 1);
+        }
+        form {
+
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+        }
+        input {
+            margin-top: 10px;
+            width: 100%;
+            padding: 8px;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Harikrishna(25013589)</h1>
+    <center>
+        <div class="hari">
+                <h1>BMI CALCULATER</h1>
+                <h1>Calculate_BMI</h1> 
+<form method="POST">
+{%csrf_token %}
+<div class="hari"> 
+    Height:<input type="text" name="Height" value="{{h}}"></input>(in cm)<br><br> 
+</div> 
+<div class="hari"> 
+    Weight:<input type="text" name="Weight" value="{{w}}"></input>(in kg)<br><br>
+
+</div> 
+<div class="hari"> 
+    <input type="submit" value="Calculate_BMI"></input><br> 
+</div> 
+<div class="hari"> 
+    <input type="text" name="BMI" value="{{bmi}}">
+</div>
+</form>
+</div>
+</body>
+</html>
+
+
